@@ -1,5 +1,5 @@
 import Controller.DecibelMaxController;
-import Entity.Sound;
+import Gateway.Sound;
 
 import java.util.Scanner;
 
