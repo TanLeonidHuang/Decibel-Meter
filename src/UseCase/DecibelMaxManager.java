@@ -6,8 +6,8 @@ public class DecibelMaxManager {
     
     private DecibelMax limit = new DecibelMax();
 
-    public void changeLimit(int newDouble) {
-        limit.setDBMax(newDouble);
+    public void changeLimit(int newDB) {
+        limit.setDBMax(newDB);
     }
 
     public int getDecibelMax() {
