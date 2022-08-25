@@ -4,7 +4,7 @@ import javax.sound.sampled.*;
 
 import Controller.DecibelMaxController;
 
-public class Sound {
+public class Sound implements SoundInterface{
 
     protected TargetDataLine targetLine = null;
     
@@ -41,7 +41,7 @@ public class Sound {
             System.out.println(ex);
             System.exit(0);
         }
-    } 
+    }
     
 
     public static int calculateRMSLevel(byte[] audioData) {
